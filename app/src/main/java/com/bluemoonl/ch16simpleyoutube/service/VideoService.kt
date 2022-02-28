@@ -5,6 +5,6 @@ import retrofit2.Call
 import retrofit2.http.GET
 
 interface VideoService {
-    @GET("/v3/4b905368-03f3-4768-afee-ffca7af00821")
+    @GET("/v3/5acce72f-1222-4dbc-a023-b2d8ee8523da")
     fun listVideoes(): Call<VideoDto>
 }
